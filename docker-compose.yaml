@@ -1,0 +1,5 @@
+version: '1'
+services:
+  playwright-tests:
+    image: playwright-tests
+    network_mode: host
